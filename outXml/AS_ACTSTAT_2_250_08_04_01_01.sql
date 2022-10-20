@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS ;
+CREATE TABLE  (
+  ACTSTATID integer NOT NULL,
+  NAME text NOT NULL
+);
+
+COMMENT ON COLUMN .ACTSTATID IS 'Идентификатор статуса (ключ)';
+COMMENT ON COLUMN .NAME IS 'Наименование';

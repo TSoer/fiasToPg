@@ -1,0 +1,12 @@
+
+
+DROP TABLE IF EXISTS ;
+CREATE TABLE  (
+  ESTSTATID integer NOT NULL,
+  NAME text NOT NULL,
+  SHORTNAME text
+);
+
+COMMENT ON COLUMN .ESTSTATID IS 'Признак владения';
+COMMENT ON COLUMN .NAME IS 'Наименование';
+COMMENT ON COLUMN .SHORTNAME IS 'Краткое наименование';

@@ -1,0 +1,12 @@
+
+
+DROP TABLE IF EXISTS ;
+CREATE TABLE  (
+  FLTYPEID integer NOT NULL,
+  NAME text NOT NULL,
+  SHORTNAME text
+);
+
+COMMENT ON COLUMN .FLTYPEID IS 'Тип помещения';
+COMMENT ON COLUMN .NAME IS 'Наименование';
+COMMENT ON COLUMN .SHORTNAME IS 'Краткое наименование';

@@ -1,0 +1,10 @@
+
+
+DROP TABLE IF EXISTS ;
+CREATE TABLE  (
+  CENTERSTID integer NOT NULL,
+  NAME text NOT NULL
+);
+
+COMMENT ON COLUMN .CENTERSTID IS 'Идентификатор статуса';
+COMMENT ON COLUMN .NAME IS 'Наименование';
